@@ -182,7 +182,7 @@
   
   /* Hide Profile Options in Nav Bar */
   
-  /* .main-userWidget-notificationIndicator {
+  .main-userWidget-notificationIndicator {
     display: none;
   }
   
@@ -193,12 +193,12 @@
   .main-userWidget-box {
     background-color: var(--spice-sidebar);
     text-decoration-line: underline; 
-  }*/
+  }
   
   /* Improve Sidebar Buttons */
   
-  /* .main-likedSongsButton-likedSongsIcon {
-    background: var(--spice-text);
+  .main-likedSongsButton-likedSongsIcon {
+    background: var(--spice-button-active);
   }
   
   .main-likedSongsButton-likedSongsIcon {
@@ -206,21 +206,21 @@
   }
   
   .main-trackList-trackListHeaderRow {
-    border-bottom: 1px solid rgba(var(--spice-rgb-button-disabled), 0.8);
+    border-bottom: 1px solid rgba(var(--spice-button-disabled), 0.8);
   }
   
   .main-trackList-trackListHeaderStuck .main-trackList-trackListHeaderRow {
-    border-bottom: 1px solid rgba(var(--spice-rgb-button-disabled), 0.8);
+    border-bottom: 1px solid rgba(var(--spice-button-disabled), 0.8);
   }
   
   .main-trackList-trackListRow.main-trackList-selected,
   .main-trackList-trackListRow.main-trackList-selected:hover {
-    background-color: rgba(var(--spice-rgb-selected-row), 0.8) !important;
+    background-color: rgba(var(--spice-selected-row), 0.8) !important;
   }
   
   .main-trackList-trackListRow:focus-within,
   .main-trackList-trackListRow:hover {
-    background-color: rgba(var(--spice-rgb-selected-row), 0.4);
+    background-color: rgba(var(--spice-selected-row), 0.4);
   }
   
   .main-duplicateTracksDialog-container {
@@ -229,7 +229,7 @@
   }
   
   .main-duplicateTracksDialog-secondaryButton {
-    color: var(--spice-text);
+    color: var(--spice-button-active);
   }
   
   ._9eb5acf729a98d62135ca21777fef244-scss {
@@ -239,11 +239,11 @@
   .x-sortBox-sortDropdown,
   .x-filterBox-expandButton {
     color: var(--spice-text) !important;
-  } */
+  }
   
   /* Main Play Button Change */
   
-  /* .main-playButton-PlayButton.main-playButton-primary {
+  .main-playButton-PlayButton.main-playButton-primary {
     color: var(--spice-main);
     background-color: var(--spice-playback-bar);
     cursor: pointer !important;
@@ -260,11 +260,11 @@
   .x-downloadButton-button {
     background: var(--spice-player);
     border-radius: 50%; 
-  }*/
+  }
   
   /* Link playback-bar color */
   
-  /* .playback-bar .progress-bar__fg {
+  playback-bar .progress-bar__fg {
     background-color: var(--spice-playback-bar);
   }
   
@@ -275,7 +275,7 @@
   .main-navBar-navBarLinkActive {
     background-color: var(--spice-main);
   }
-  
+
   .main-navBar-navBarLinkActive,
   .main-navBar-navBarLinkActive:focus,
   .main-navBar-navBarLinkActive:hover,
@@ -302,14 +302,14 @@
   .collection-collectionEntityHeroCard-descriptionContainer {
     color: var(--spice-subtext) !important;
   }
-  
+   
   .main-buddyFeed-activityMetadata .main-buddyFeed-artistAndTrackName a,
   .main-buddyFeed-activityMetadata .main-buddyFeed-username a,
   .main-buddyFeed-activityMetadata .main-buddyFeed-playbackContextLink,
   p.main-buddyFeed-timestamp.main-type-finale,
   .main-buddyFeed-findFriendsButton .main-buddyFeed-findFriendsIcon {
     color: var(--spice-subtext);
-  } */
+  }
   
   /* Recolor sub-buttons */
   
@@ -366,7 +366,8 @@
   .view-homeShortcutsGrid-shortcut:focus-within,
   .view-homeShortcutsGrid-shortcut:hover,
   .view-homeShortcutsGrid-shortcut[data-context-menu-open="true"] {
-    background-color: var(--spice-selected-row) !important;
+    background-color: var(--spice-misc) !important;
+    /* background-color: var(--spice-selected-row) !important; */
   }
   
   .main-rootlist-textWrapper.main-type-viola {
@@ -587,10 +588,12 @@
     background-color: blue;
     fill: var(--spice-sidebar);
     opacity: 0.7;
-  }
+  }*/
+
   .main-yourEpisodes-coverContainer {
     background-color: var(--spice-text);
   }
+  /*
   .playback-bar__progress-time-elapsed {
     visibility: hidden;
     width: 0px;
