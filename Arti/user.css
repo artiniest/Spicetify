@@ -1,4 +1,4 @@
-/* Dreary Theme*/
+/* Dreary Theme
 
 .main-rootlist-rootlistDividerGradient {
     display: none;
@@ -41,18 +41,18 @@
   
   /* Topbar visibility bug */
   
-  .main-topBar-topbarContent:not(.main-topBar-topbarContentFadeIn) > * {
+  /* .main-topBar-topbarContent:not(.main-topBar-topbarContentFadeIn) > * {
     opacity: unset !important;
   }
   
   .main-entityHeader-topbarContent:not(.main-entityHeader-topbarContentFadeIn)
     > * {
     opacity: 0 !important;
-  }
+  } */
   
   /* Remove Topbar background colour */
   
-  .main-topBar-background {
+  /* .main-topBar-background {
     background-color: unset !important;
   }
   
@@ -72,7 +72,7 @@
   
   span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
     fill: black;
-  }
+  } */
   
   /* Hide Banner Ads */
   
@@ -87,17 +87,17 @@
   
   /* Hide Upgrade Button */
   
-  .main-topBar-UpgradeButton {
+  /* .main-topBar-UpgradeButton {
     display: none;
   }
   
   [aria-label="Playing"] {
     color: var(--spice-text);
-  }
+  } */
   
   /* Fix design fault */
   
-  @media (min-width: 1024px) {
+  /* @media (min-width: 1024px) {
     .main-trackList-trackListHeader {
       border-bottom: solid 1px;
       margin: 10px;
@@ -110,12 +110,12 @@
   }
   
   .main-trackList-trackListHeaderStuck .main-trackList-trackListHeaderRow {
-    border-bottom: 1px solid rgba(var(--spice-rgb-button-disabled), 0.8);
-  }
+    border-bottom: 1px solid rgba(var(--spice-rgb-button-disabled), 0.8); 
+  }*/
   
   /* Changing Playback Bar Location */
   
-  .progress-bar__bg,
+  /* .progress-bar__bg,
   .progress-bar__fg_wrapper {
     border-radius: 0;
     z-index: 1;
@@ -177,12 +177,12 @@
     > .os-scrollbar-track
     > .os-scrollbar-handle {
     border-radius: 4px;
-    background-color: var(--spice-text);
-  }
+    background-color: var(--spice-text); 
+  }*/
   
   /* Hide Profile Options in Nav Bar */
   
-  .main-userWidget-notificationIndicator {
+  /* .main-userWidget-notificationIndicator {
     display: none;
   }
   
@@ -192,12 +192,12 @@
   
   .main-userWidget-box {
     background-color: var(--spice-sidebar);
-    text-decoration-line: underline;
-  }
+    text-decoration-line: underline; 
+  }*/
   
   /* Improve Sidebar Buttons */
   
-  .main-likedSongsButton-likedSongsIcon {
+  /* .main-likedSongsButton-likedSongsIcon {
     background: var(--spice-text);
   }
   
@@ -239,11 +239,11 @@
   .x-sortBox-sortDropdown,
   .x-filterBox-expandButton {
     color: var(--spice-text) !important;
-  }
+  } */
   
   /* Main Play Button Change */
   
-  .main-playButton-PlayButton.main-playButton-primary {
+  /* .main-playButton-PlayButton.main-playButton-primary {
     color: var(--spice-main);
     background-color: var(--spice-playback-bar);
     cursor: pointer !important;
@@ -259,12 +259,12 @@
   
   .x-downloadButton-button {
     background: var(--spice-player);
-    border-radius: 50%;
-  }
+    border-radius: 50%; 
+  }*/
   
   /* Link playback-bar color */
   
-  .playback-bar .progress-bar__fg {
+  /* .playback-bar .progress-bar__fg {
     background-color: var(--spice-playback-bar);
   }
   
@@ -309,11 +309,11 @@
   p.main-buddyFeed-timestamp.main-type-finale,
   .main-buddyFeed-findFriendsButton .main-buddyFeed-findFriendsIcon {
     color: var(--spice-subtext);
-  }
+  } */
   
   /* Recolor sub-buttons */
   
-  .main-moreButton-button {
+  /*.main-moreButton-button {
     color: var(--spice-sub-button);
   }
   
@@ -606,4 +606,4 @@
   }
   #spicetify-playlist-list > div {
     height: 100% !important;
-  }
+  } */
