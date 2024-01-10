@@ -110,7 +110,7 @@
   }
   
   .main-trackList-trackListHeaderStuck .main-trackList-trackListHeaderRow {
-    border-bottom: 1px solid rgba(var(--spice-misc), 0.8); 
+    border-bottom: 1px solid rgba(var(--spice-), 0.8); 
   }
   
   /* Changing Playback Bar Location */
@@ -238,7 +238,7 @@
   
   .x-sortBox-sortDropdown,
   .x-filterBox-expandButton {
-    color: var(--spice-text) !important;
+    color: var(--spice-button-active) !important;
   }
   
   /* Main Play Button Change */
