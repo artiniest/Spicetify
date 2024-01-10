@@ -383,11 +383,11 @@
   }
   
   .main-trackInfo-name a {
-    color: var(--spice-misc) !important;
+    color: var(--spice-button-active) !important;
   }
   
   .main-trackInfo-artists a:link {
-    color: var(--spice-misc) !important;
+    color: var(--spice-text) !important;
   }
   
   [class*=" spoticon-"]:before {
