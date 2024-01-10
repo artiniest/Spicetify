@@ -6,19 +6,19 @@
   }
   
   .main-rootlist-rootlistDivider {
-    background-color: var(--spice-text) !important;
+    background-color: var(--spice-misc) !important;
   }
   
   input {
     background-color: unset !important;
-    border-bottom: solid 1px var(--spice-text) !important;
+    border-bottom: solid 1px var(--spice-button-active) !important;
     border-radius: 0 !important;
     padding: 6px 10px 6px 48px;
-    color: var(--spice-text) !important;
+    color: var(--spice-button-active) !important;
   }
   
   .x-833-searchInput-searchInputSearchIcon {
-    color: var(--spice-text) !important;
+    color: var(--spice-button-active) !important;
   }
   
   .main-home-homeHeader,
@@ -147,16 +147,16 @@
   .player-controls__buttons {
     transform: translateY(6px);
   }
-  
+  */
   .main-playPauseButton-button {
     background-color: var(--spice-main);
     box-shadow: var(--spice-shadow) 0 5px 9px 0px;
     --button-size: 50px !important;
-    color: var(--spice-text);
+    color: var(--spice-active-button);
     background-color: var(--spice-player) !important;
     cursor: pointer;
   }
-  
+  /*
   .player-controls__buttons {
     align-items: center;
     position: relative;
@@ -238,8 +238,8 @@
   
   .x-sortBox-sortDropdown,
   .x-filterBox-expandButton {
-    /* color: var(--spice-text) !important; */
-    color: #ff00ff !important;
+    color: var(--spice-shadow) !important;
+    /* color: #ff00ff !important; */
   }
   
   /* Main Play Button Change */
@@ -343,8 +343,8 @@
   }
   
   .x-sortBox-sortDropdown {
-    /* background-color: var(--spice-button-active) !important; */
-    background-color: #ff00ff !important;
+    background-color: var(--spice-button-active) !important;
+    /* background-color: #ff00ff !important; */
   }
   
   .x-filterBox-searchIconContainer {
