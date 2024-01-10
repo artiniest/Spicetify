@@ -238,7 +238,8 @@
   
   .x-sortBox-sortDropdown,
   .x-filterBox-expandButton {
-    color: var(--spice-button-active) !important;
+    color: var(--spice-text) !important;
+    background-color: var(--spice-button-active) !important;
   }
   
   /* Main Play Button Change */
