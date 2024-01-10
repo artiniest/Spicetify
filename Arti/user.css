@@ -342,15 +342,13 @@
   }
   
   .x-sortBox-sortDropdown {
-    /* background-color: var(--spice-selected-row) !important; */
-    background-color: #ff00ff !important;
+    background-color: var(--spice-selected-row) !important;
   }
   
   .x-filterBox-searchIconContainer {
-    color: #ff00ff !important;
+    color: var(--spice-button-active) !important;
   }
   
-  /*
   .x-filterBox-expandButton:focus,
   .x-filterBox-expandButton:hover {
     background-color: var(--spice-selected-row) !important;
@@ -362,9 +360,11 @@
   }
   
   .view-homeShortcutsGrid-shortcut {
-    background-color: rgba(var(--spice-rgb-selected-row), 0.6) !important;
+    background-color: rgba(#ff00ff, 0.6) !important;
+    /* background-color: rgba(var(--spice-rgb-selected-row), 0.6) !important; */
   }
   
+  /*
   .view-homeShortcutsGrid-shortcut:focus-within,
   .view-homeShortcutsGrid-shortcut:hover,
   .view-homeShortcutsGrid-shortcut[data-context-menu-open="true"] {
