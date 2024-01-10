@@ -41,18 +41,18 @@
   
   /* Topbar visibility bug */
   
-  /* .main-topBar-topbarContent:not(.main-topBar-topbarContentFadeIn) > * {
+  .main-topBar-topbarContent:not(.main-topBar-topbarContentFadeIn) > * {
     opacity: unset !important;
   }
   
   .main-entityHeader-topbarContent:not(.main-entityHeader-topbarContentFadeIn)
     > * {
     opacity: 0 !important;
-  } */
+  }
   
   /* Remove Topbar background colour */
   
-  /* .main-topBar-background {
+  .main-topBar-background {
     background-color: unset !important;
   }
   
@@ -72,7 +72,7 @@
   
   span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
     fill: black;
-  } */
+  }
   
   /* Hide Banner Ads */
   
