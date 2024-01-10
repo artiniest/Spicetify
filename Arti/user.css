@@ -342,7 +342,7 @@
   }
   
   .x-sortBox-sortDropdown {
-    background-color: var(--spice-selected-row) !important;
+    background-color: var(--spice-button) !important;
   }
   
   .x-filterBox-searchIconContainer {
@@ -359,12 +359,10 @@
     background-color: var(--spice-selected-row) !important;
   }
   
-  .view-homeShortcutsGrid-shortcut {
-    background-color: rgba(#ff00ff, 0.6) !important;
-    /* background-color: rgba(var(--spice-rgb-selected-row), 0.6) !important; */
-  }
+  /* .view-homeShortcutsGrid-shortcut {
+    background-color: rgba(var(--spice-rgb-selected-row), 0.6) !important;
+  } */
   
-  /*
   .view-homeShortcutsGrid-shortcut:focus-within,
   .view-homeShortcutsGrid-shortcut:hover,
   .view-homeShortcutsGrid-shortcut[data-context-menu-open="true"] {
@@ -415,6 +413,7 @@
     overflow: hidden;
     overflow-y: scroll;
   }
+  /*
   
   #spicetify-playlist-list > div > div:nth-child(2) > li {
     margin: 4px 3.2vw;
