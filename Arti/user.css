@@ -149,12 +149,12 @@
   }
   */
   .main-playPauseButton-button {
-    background-color: var(--spice-main);
-    box-shadow: var(--spice-shadow) 0 5px 9px 0px;
-    --button-size: 50px !important;
+    /* background-color: var(--spice-main); */
+    /* box-shadow: var(--spice-shadow) 0 5px 9px 0px; */
+    /* --button-size: 50px !important; */
     color: var(--spice-active-button);
     background-color: var(--spice-player) !important;
-    cursor: pointer;
+    /* cursor: pointer; */
   }
   /*
   .player-controls__buttons {
