@@ -724,3 +724,15 @@
     background-color: var(--spice-main);
     right: 4px;
   }
+
+/* ARTI CHANGES */
+
+.main-shelf-title,
+.main-trackInfo-name > * > a,
+.TypeElement-balladBold-textBase-type  {
+  color: var(--spice-button-active) !important;
+}
+
+.TypeElement-bass-textBase-type {
+  color: var(--spice-button-active,#000000) !important;
+}
