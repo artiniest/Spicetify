@@ -736,3 +736,7 @@
 .TypeElement-bass-textBase-type {
   color: var(--spice-button-active,#000000) !important;
 }
+
+.TypeElement-mesto-type {
+  color: var(--spice-text) !important;
+}
